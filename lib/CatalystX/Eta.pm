@@ -4,7 +4,7 @@ package CatalystX::Eta;
 
 use strict;
 use 5.008_005;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 # no code, you should not use this package directly
 
@@ -182,6 +182,8 @@ And now, with a little description:
         # what list_GET key should put collection results.
         list_key   => 'users',
 
+        # check_only_roles => 0 # default.
+
         # used by CheckRoleForPUT
         update_roles => [qw/superadmin/],
 
@@ -190,6 +192,12 @@ And now, with a little description:
 
         # used by AutoResult
         delete_roles => [qw/superadmin/],
+
+        # if the user requesting delete or update have any of listed roles,
+        # the action will be executed.
+        # if the role was denied and config->{check_only_roles} is not true,
+        # the code test if the object have the column (user_id | created_by ) and
+        # if is equals $c->user->id, the action is executed even without the role.
 
         # used by AutoList and AutoResult
         # to generate the row.
