@@ -38,6 +38,6 @@ resources:
   bugtracker: https://github.com/AwareTI/CatalystX-Eta/issues
   homepage: https://github.com/AwareTI/CatalystX-Eta
   repository: https://github.com/AwareTI/CatalystX-Eta.git
-version: '0.04'
+version: '0.042'
 x_contributors:
   - 'Renato CRON <renato.cron@gmail.com>'
