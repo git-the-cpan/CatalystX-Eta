@@ -17,6 +17,7 @@ lib/CatalystX/Eta/Controller/AutoResult.pm
 lib/CatalystX/Eta/Controller/CheckRoleForPOST.pm
 lib/CatalystX/Eta/Controller/CheckRoleForPUT.pm
 lib/CatalystX/Eta/Controller/ListAutocomplete.pm
+lib/CatalystX/Eta/Controller/Order.pm
 lib/CatalystX/Eta/Controller/ParamsAsArray.pm
 lib/CatalystX/Eta/Controller/REST.pm
 lib/CatalystX/Eta/Controller/Search.pm
