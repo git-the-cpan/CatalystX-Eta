@@ -9,6 +9,7 @@ build_requires:
   Catalyst::Runtime: '5.90080'
   DBIx::Class::PassphraseColumn: '0'
   DBIx::Class::TimeStamp: '0'
+  Data::Verifier: '0'
   JSON::MaybeXS: '0'
   Test::More: '0'
 configure_requires:
@@ -37,6 +38,6 @@ resources:
   bugtracker: https://github.com/AwareTI/CatalystX-Eta/issues
   homepage: https://github.com/AwareTI/CatalystX-Eta
   repository: https://github.com/AwareTI/CatalystX-Eta.git
-version: '0.0362'
+version: '0.04'
 x_contributors:
   - 'Renato CRON <renato.cron@gmail.com>'

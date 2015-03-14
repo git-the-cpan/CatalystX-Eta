@@ -6,6 +6,7 @@ MANIFEST
 META.json
 META.yml
 README
+TODO
 cpanfile
 dist.ini
 lib/CatalystX/Eta.pm
@@ -24,6 +25,11 @@ lib/CatalystX/Eta/Controller/Search.pm
 lib/CatalystX/Eta/Controller/SimpleCRUD.pm
 lib/CatalystX/Eta/Controller/TypesValidation.pm
 lib/CatalystX/Eta/Test/REST.pm
+lib/CatalystX/Helper/DateTimeToString.pm
+lib/CatalystX/Temporal/Controller/AutoBase.pm
+lib/CatalystX/Temporal/Controller/AutoList.pm
+lib/CatalystX/Temporal/Controller/AutoObject.pm
+lib/CatalystX/Temporal/Controller/AutoResult.pm
 t/001-crud-user.t
 t/002-auth.t
 t/lib/Data/Verifier.pm
