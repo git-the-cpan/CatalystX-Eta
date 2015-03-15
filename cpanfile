@@ -5,6 +5,8 @@ requires 'Stash::REST', 0.06;
 
 requires 'DBIx::Class';
 
+requires 'Catalyst::Controller::REST';
+
 on test => sub {
     requires 'Catalyst::Runtime', '5.90080';
 
@@ -18,5 +20,13 @@ on test => sub {
     requires 'DBIx::Class::TimeStamp';
     requires 'JSON::MaybeXS';
     requires 'Data::Verifier';
-
+    requires 'Data::Manager';
+    requires 'MooseX::MarkAsMethods';
+    requires 'MooseX::NonMoose';
+    requires 'namespace::autoclean';
+    requires 'Data::Diver';
+    requires 'Catalyst::Plugin::Static::Simple';
+    requires 'Catalyst::Plugin::ConfigLoader';
+    requires 'Catalyst::Authentication::Store::DBIx::Class';
+    requires 'MooseX::Types::Email';
 };
