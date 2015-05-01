@@ -13,8 +13,6 @@ sub Search_arround_list_GET{
 
     my ($c) = @_;
 
-    #print "      Search::around list_GET \n";
-
     my %may_search;
 
     if ( exists $self->config->{search_ok} ) {
