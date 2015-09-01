@@ -24,7 +24,7 @@ build_requires:
 configure_requires:
   Module::Build::Tiny: '0.039'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.035, Dist::Milla version v1.0.15, CPAN::Meta::Converter version 2.150005'
+generated_by: 'Dist::Zilla version 5.039, Dist::Milla version v1.0.15, CPAN::Meta::Converter version 2.150005'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -48,7 +48,7 @@ resources:
   bugtracker: https://github.com/AwareTI/CatalystX-Eta/issues
   homepage: https://github.com/AwareTI/CatalystX-Eta
   repository: https://github.com/AwareTI/CatalystX-Eta.git
-version: '0.047'
+version: '0.048'
 x_contributors:
   - 'Renato CRON <renato.cron@gmail.com>'
   - 'RenatoCRON <renato.cron@gmail.com>'
