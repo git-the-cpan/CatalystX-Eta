@@ -13,8 +13,13 @@ lib/CatalystX/Eta.pm
 lib/CatalystX/Eta/Controller/AssignCollection.pm
 lib/CatalystX/Eta/Controller/AutoBase.pm
 lib/CatalystX/Eta/Controller/AutoList.pm
+lib/CatalystX/Eta/Controller/AutoListGET.pm
+lib/CatalystX/Eta/Controller/AutoListPOST.pm
 lib/CatalystX/Eta/Controller/AutoObject.pm
 lib/CatalystX/Eta/Controller/AutoResult.pm
+lib/CatalystX/Eta/Controller/AutoResultDELETE.pm
+lib/CatalystX/Eta/Controller/AutoResultGET.pm
+lib/CatalystX/Eta/Controller/AutoResultPUT.pm
 lib/CatalystX/Eta/Controller/CheckRoleForPOST.pm
 lib/CatalystX/Eta/Controller/CheckRoleForPUT.pm
 lib/CatalystX/Eta/Controller/ListAutocomplete.pm

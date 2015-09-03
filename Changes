@@ -1,5 +1,9 @@
 Revision history for CatalystX-Eta
 
+0.05  2015-09-03 20:19:24 BRT
+    - split AutoResult into AutoResultGET, AutoResultDELETE, AutoResultPUT
+    - split AutoList into AutoListPOST, AutoListGET
+
 0.048  2015-09-01 16:16:28 BRT
     - add option list_post_for for change execute name on create.
     - check if check-role-right-fields is defined in CheckRoleForPUT.pm and AutoResult.pm
